@@ -1,0 +1,24 @@
+[submodule "RepRapFirmware"]
+	path = RepRapFirmware
+	url = https://github.com/Duet3D/RepRapFirmware
+	branch = 3.5-dev
+[submodule "CANLib"]
+	path = CANLib
+	url = https://github.com/Duet3D/CANLib
+	branch = 3.5-dev
+[submodule "CoreN2G"]
+	path = CoreN2G
+	url = https://github.com/Duet3D/CoreN2G
+	branch = 3.5-dev
+[submodule "FreeRTOS"]
+	path = FreeRTOS
+	url = https://github.com/Duet3D/FreeRTOS
+	branch = 3.5-dev
+[submodule "RRFLibraries"]
+	path = RRFLibraries
+	url = https://github.com/Duet3D/RRFLibraries
+	branch = 3.5-dev
+[submodule "DuetWiFiSocketServer"]
+	path = DuetWiFiSocketServer
+	url = https://github.com/Duet3D/DuetWiFiSocketServer
+	branch = dev
