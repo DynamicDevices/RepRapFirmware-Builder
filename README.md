@@ -50,7 +50,9 @@ existing stuff... ;C:\msys64\usr\bin
 
 - It'll all import and you'll end up showing a number of projects
 
-## Building
+- Next you need to right click on each of the projects and set the correct target project as per the table e.g. for Duet3 [here](https://github.com/Duet3D/RepRapFirmware/wiki/Building-RepRapFirmware#instructions-for-building-under-windows)
+ 
+- ## Building
 
 - Right click on `RepRapFirmware` project and choose configuration to set active target to `Duet3_MB6XD`
 
@@ -120,6 +122,8 @@ chmod a+x path to repo/RepRapFirmware-Builder/RepRapFirmware/Tools/CrcAppender/l
 ```
 sudo apt-get install -y dotnet-sdk-6.0
 ```
+
+- Next you need to right click on each of the projects and set the correct target project as per the table e.g. for Duet3 [here](https://github.com/Duet3D/RepRapFirmware/wiki/Building-RepRapFirmware#instructions-for-building-under-windows)
 
 ## Building
 
