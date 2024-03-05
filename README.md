@@ -26,9 +26,9 @@ pacman -S make
 
 - Then you need to open the Windows System Settings and edit the Environment variable `PATH` to add the path to make to the end
 
-- ```
-  existing stuff... ;C:\msys64\usr\bin
-  ```
+```
+existing stuff... ;C:\msys64\usr\bin
+```
 
 - Open a new `cmd` box and check you can type `make` and the command runs OK
 
