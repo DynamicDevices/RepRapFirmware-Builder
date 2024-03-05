@@ -59,3 +59,12 @@ existing stuff... ;${ProjDirPath}\Tools\CrcAppender\win-x86-64
 ```
 
 - Build RepRepFirmware (will build dependent projects)
+
+```
+Finished building target: Duet3Firmware_MB6XD.elf
+ 
+Generating binary file
+arm-none-eabi-objcopy -O binary "C:\Users\ajlen\git\RepRapFirmware-Builder\RepRapFirmware\Duet3_MB6XD/Duet3Firmware_MB6XD.elf" "C:\Users\ajlen\git\RepRapFirmware-Builder\RepRapFirmware\Duet3_MB6XD/Duet3Firmware_MB6XD.bin" && CrcAppender "C:\Users\ajlen\git\RepRapFirmware-Builder\RepRapFirmware\Duet3_MB6XD/Duet3Firmware_MB6XD.bin"
+Firmware binary: C:\Users\ajlen\git\RepRapFirmware-Builder\RepRapFirmware\Duet3_MB6XD\Duet3Firmware_MB6XD.bin
+CRC32 = 0xF5A26021
+```
