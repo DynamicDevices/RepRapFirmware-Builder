@@ -142,5 +142,5 @@ make[1]: Nothing to be done for 'main-build'.
 Generating binary file
 arm-none-eabi-objcopy -O binary "/home/ajlennon/git/RepRapFirmware-Builder/RepRapFirmware/Duet3_MB6XD/Duet3Firmware_MB6XD.elf" "/home/ajlennon/git/RepRapFirmware-Builder/RepRapFirmware/Duet3_MB6XD/Duet3Firmware_MB6XD.bin" && CrcAppender "/home/ajlennon/git/RepRapFirmware-Builder/RepRapFirmware/Duet3_MB6XD/Duet3Firmware_MB6XD.bin"
 Firmware binary: /home/ajlennon/git/RepRapFirmware-Builder/RepRapFirmware/Duet3_MB6XD/Duet3Firmware_MB6XD.bin
-CRC32 = 0x18EAFF98```
-
+CRC32 = 0x18EAFF98
+```
