@@ -1,7 +1,7 @@
 [submodule "RepRapFirmware"]
 	path = RepRapFirmware
-	url = https://github.com/Duet3D/RepRapFirmware
-	branch = 3.5-dev
+	url = https://github.com/DynamicDevices/RepRapFirmware
+	branch = ajl/arcitype
 [submodule "CANLib"]
 	path = CANLib
 	url = https://github.com/Duet3D/CANLib
