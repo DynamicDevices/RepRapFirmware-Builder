@@ -123,6 +123,13 @@ chmod a+x path to repo/RepRapFirmware-Builder/RepRapFirmware/Tools/CrcAppender/l
 sudo apt-get install -y dotnet-sdk-6.0
 ```
 
+- On Eclipse go to **Windows -> Preferences -> C/C++ -> Build -> Build Variables and click "Add..."** to set the workspace variable **ArmGccPath** with the value of path for the directory of
+arm-none-eabi-g++ compiler.
+
+```
+PATH_TO_DIR/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin
+```
+
 - Next you need to right click on each of the projects and go to Build->Configuration and set the active target for the project as per the table e.g. for Duet3 [here](https://github.com/Duet3D/RepRapFirmware/wiki/Building-RepRapFirmware#instructions-for-building-under-windows)
 
 ## Building
@@ -132,7 +139,7 @@ sudo apt-get install -y dotnet-sdk-6.0
 - Next edit the properties of RepRapFirmware project (right click) and go to C/C++ Build->Environment. Edit `PATH` and add the following to the end of the line
 
 ```
-existing stuff... ;${ProjDirPath}\Tools\CrcAppender\win-x86-64
+existing stuff... :${ProjDirPath}/Tools/CrcAppender/linux-x86_64
 ```
 
 - Build RepRepFirmware (will build dependent projects)
